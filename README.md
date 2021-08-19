@@ -18,11 +18,11 @@ It is like Microsoft Store but in command line so it can be quicker to install a
 7. Open the file and download the update
 8. Now try step 4 again to see if you have successfully installed winget.
 
-# Installation 
+# Installation of this Tool
 1. Click on the green button called `Code` up on this page
 2. Download the zip and extract it
 3. Open up the bat file `wingetdebloated.bat`
-4. NOTE: IT IS RECOMMENDED to create System Restore Point before starting to debloat, the script will asks if you want to do it.
+4. NOTE: IT IS RECOMMENDED to create System Restore Point before starting to debloat, the script will ask you if you want to do it.
 
 # What will it uninstall?
 Edge (Optional), Cortana, Skype, Microsoft Teams, Xbox Applications (Xbox App, Game overlay, ...), Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather App, Mail and Calendar, Your Phone App, Contacts App, Microsoft Pay/Wallet, Microsoft Maps, Office, OneNote, Windows Sound recorder, Movies & TV app, Mixed Reality-Portal App, Sticky Notes, Get Help app
