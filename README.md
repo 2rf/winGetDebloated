@@ -19,7 +19,7 @@ NOTE: IT IS RECOMMENDED to create System Restore Point before starting to debloa
 4. Test if you have winget installed by opening up cmd and typing in `winget -v` if it shows the version you're good to go
 
 # 🍵 What will it uninstall?
-Edge (will ask if you want to uninstall it), Cortana, Skype, Microsoft Teams, Xbox Applications (Xbox App, Game overlay, ...), Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather App, Mail and Calendar, Your Phone App, Contacts App, Microsoft Pay/Wallet, Microsoft Maps, Office, OneNote, Windows Sound recorder, Movies & TV app, Mixed Reality-Portal App, Sticky Notes, Get Help app
+Edge (will ask if you want to uninstall it), Cortana, Skype, Microsoft Teams, Xbox Applications (Xbox App, Game overlay, ...), Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather App, Mail and Calendar, Your Phone App, Contacts App, Microsoft Pay/Wallet, Microsoft Maps, Office, OneNote, Windows Sound recorder, Movies & TV app, Mixed Reality-Portal App, Sticky Notes, Get Help app, OneDrive
 
 
 You can reinstall any of these apps using the Microsoft Store
