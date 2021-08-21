@@ -2,7 +2,7 @@
 winGetDebloated is a batch script which uninstalls all windows unnecessary windows apps using the winGet package manager
 
 # 💻 What is winget?
-Winget is a official microsoft package manager which can be used to install or uninstall programs.
+Winget is an official microsoft package manager which can be used to install or uninstall programs.
 It's like the Microsoft Store but in command line making it quicker to install applications by just launching cmd.
 
 # 🚀 Installation of this Tool
