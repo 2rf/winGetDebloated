@@ -1,10 +1,14 @@
 @echo off
-set /p restore="It is important to do a restore point incase anything bad will happen! Do you want to open restore point manager? y/n: "
+set /p restore="Incase something goes wrong, it's recommended to make a system restore point. Open restore point manager? y/n: "
 if /i "%restore%" == "y" echo Click on "create" && start SystemPropertiesProtection.exe
+cls
 set /p edge="Do you want to uninstall edge? y/n: "
-set /p startdebloat="Press ENTER twice to start debloating"
-set /p againxd="Press ENTER one more time to start debloating!"
-echo Starting debloating...
+set /p enter="Press ENTER twice to start debloating"
+set /p enter2="Press ENTER one more time to start debloating!"
+
+color 06 && echo Ignore errors, when a User-Account-Control popup occurs, click "Yes" && color 
+timeout /t 2 /nobreak
+echo Starting to debloat...
 
 echo Uninstalling Cortana...
 winget uninstall cortana
@@ -12,8 +16,6 @@ winget uninstall cortana
 echo Uninstalling Skype...
 winget uninstall skype
 
-echo Uninstalling Microsoft.Teams...
-winget uninstall Microsoft.Teams
 if /i "%EDGE%" == "y" echo Killing Edge tasks and uninstalling Edge... (NOTE: IF ERRORS OCCUR CLOSE THEM, if it's stuck on loading relaunch the script.) && taskkill /im /msedge.exe && winget uninstall Microsoft.Edge
 if /i "%EDGE%" == "n" echo Skipping Edge
 
@@ -25,7 +27,7 @@ winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe
 winget uninstall Microsoft.XboxGamingOverlay_8wekyb3d8bbwe
 winget uninstall Microsoft.XboxGameOverlay_8wekyb3d8bbwe
 
-echo Uninstalling GrOoVe-MuSiC...
+echo Uninstalling Groove-Music...
 winget uninstall Microsoft.ZuneMusic_8wekyb3d8bbwe
 
 echo Uninstalling FeedBack-Hub...
@@ -36,7 +38,7 @@ winget uninstall Microsoft.Getstarted_8wekyb3d8bbwe
 
 echo Uninstalling 3D-Viewer...
 winget uninstall Microsoft.3DViewer_8wekyb3d8bbwe
-winget uninstall winget uninstall Microsoft.Microsoft3DViewer_8wekyb3d8bbwe
+winget uninstall Microsoft.Microsoft3DViewer_8wekyb3d8bbwe
 
 echo Uninstalling Microsoft Solitaire Collection
 winget uninstall Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe
@@ -85,6 +87,11 @@ winget uninstall Microsoft.GetHelp_8wekyb3d8bbwe
 
 echo Uninstalling OneDrive...
 winget uninstall Microsoft.OneDrive
+
+winget uninstall Microsoft.Todos_8wekyb3d8bbwe
+winget uninstall Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe
+winget uninstall Microsoft.BingNews_8wekyb3d8bbwe
+winget uninstall MicrosoftTeams_8wekyb3d8bbwe
 
 echo Done! If you want to reinstall an app simply look it up on the Microsoft Store.
 pause
