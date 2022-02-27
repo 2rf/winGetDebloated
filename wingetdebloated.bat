@@ -1,15 +1,15 @@
 @echo off
-set /p restore="Incase something goes wrong, it's recommended to make a system restore point. Open restore point manager? y/n: "
+set /p restore="Incase you change your mind, it's recommended to make a system restore point. Open restore point manager? y/n: "
 if /i "%restore%" == "y" echo Click on "create" && start SystemPropertiesProtection.exe
-cls
 set /p edge="Do you want to uninstall edge? y/n: "
 set /p enter="Press ENTER twice to start debloating"
 set /p enter2="Press ENTER one more time to start debloating!"
+cls
+color 06 && echo Ignore errors, when a User-Account-Control popup occurs, click "Yes"
+@timeout 2 /nobreak
+cls && color 
 
-color 06 && echo Ignore errors, when a User-Account-Control popup occurs, click "Yes" && color 
-timeout /t 2 /nobreak
 echo Starting to debloat...
-
 echo Uninstalling Cortana...
 winget uninstall cortana
 
@@ -93,5 +93,5 @@ winget uninstall Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe
 winget uninstall Microsoft.BingNews_8wekyb3d8bbwe
 winget uninstall MicrosoftTeams_8wekyb3d8bbwe
 
-echo Done! If you want to reinstall an app simply look it up on the Microsoft Store.
+echo Done! If you want to reinstall an app simply look it up on the Microsoft Store or Winget. Recover from system restore point if you decided to change your mind
 pause
