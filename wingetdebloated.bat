@@ -16,7 +16,7 @@ winget uninstall cortana
 echo Uninstalling Skype...
 winget uninstall skype
 
-if /i "%EDGE%" == "y" echo Killing Edge tasks and uninstalling Edge... (NOTE: IF ERRORS OCCUR CLOSE THEM, if it's stuck on loading relaunch the script.) && taskkill /im /msedge.exe && winget uninstall Microsoft.Edge
+if /i "%EDGE%" == "y" echo Killing Edge tasks and uninstalling Edge... (NOTE: IF ERRORS OCCUR CLOSE THEM, if it's stuck on loading relaunch the script.) && taskkill /im msedge.exe && winget uninstall Microsoft.Edge
 if /i "%EDGE%" == "n" echo Skipping Edge
 
 echo Uninstalling Xbox Bloat...
