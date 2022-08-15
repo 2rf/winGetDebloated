@@ -1,39 +1,29 @@
-# ⚡ winGetDebloated
-winGetDebloated is a batch script which uninstalls all unnecessary Windows 10 and Windows 11 applications using the winGet package manager
+# wingetdebloated
 
-# 💻 What is winget?
-Winget is an official Microsoft package manager which can be used to install or uninstall programs.
-It's like the Microsoft Store but in command line making it quicker to install applications by just launching the command prompt.
+winGetDebloated is a bloatware removal tool for windows 10 and above made in batch using the [winget package manager](https://github.com/microsoft/winget-cli)
 
-# 🚀 Installation of this Tool
-1. Click on the green button called `Code` up on this page
-2. Download the zip and extract it
-3. Open a command prompt and type in `winget -v` to know if you have winget. If not, down below is a guide on how to install winget
-4. If you have winget, open up the .bat file `wingetdebloated.bat`
+## What is winget?
 
-⚠️ By launching the script a windows pop up will occur called `Windows protected your PC`, click on "More info" and `Run anyway`. The script is safe you can read the source code yourself. The reason this warning occurs is because the script is uninstalling programs
+Winget is like the Microsoft Store, you can install and uninstall packages but its in your command line. 
 
-# 👾 How do I install winget?
+## Installation
+Winget is preinstalled on Windows 11 and above. If you are on Windows 10 install winget [here](https://www.microsoft.com/p/app-installer/9nblggh4nns1)
 
-**Requirements**
+The installation is super simple. Just copy and paste this command into a normal command prompt
 
-Windows 10 1709 (Build 16299) or above (including Windows 11)
+    powershell -Command "(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/2rf/winGetDebloated/main/wingetdebloated.bat')" | powershell -Command Set-Content -Path .\wingetdebloated.bat    
 
-**Installation**
-1. Click [here](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1) to Download or Update winget
-3. If everything is successful launch the script
+## Usage
 
-*A microsoft account is NOT required for the installation of winget, close the login window if needed
+    wingetdebloated.bat
 
-# 🍵 What will it uninstall?
-Edge (will ask if you want to uninstall it), Cortana, Skype, Microsoft Teams, Xbox Applications (Xbox App, Game overlay, ...), Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather App, Mail and Calendar, Your Phone App, Contacts App, Microsoft Pay/Wallet, Microsoft Maps, Office, OneNote, Windows Sound recorder, Movies & TV app, Mixed Reality-Portal App, Sticky Notes, Get Help app, OneDrive, Microsoft Solitaire Collection
+## What will it uninstall?
+Edge (will ask if you want to uninstall it), Cortana, Skype, Microsoft Teams, Xbox Applications, Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather, Mail and Calendar, Your Phone, Contacts App, Microsoft Pay, Microsoft Maps, Office, OneNote, Windows Sound Recorder, Movies & TV App, Mixed Reality-Portal, Sticky Notes, Get Help, OneDrive, Microsoft Solitaire Collection
 
-Windows 11: All of the above and Microsoft To do, Power Automate, Microsoft News
+#### On Windows 11 it will uninstall: 
+All of the above and Microsoft To do, Power Automate, Microsoft News
 
+## Contributing
+Pull requests are welcome. 
 
-You can reinstall any of these apps using the Microsoft Store or Winget
-
-
-# 😊 Thanks for using this script.
-
-If you have any suggestions on what to add in this list, please create an "Issue" or if you need help
+## Thank you for using this.
