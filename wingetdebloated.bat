@@ -51,7 +51,7 @@ winget uninstall Microsoft.BingWeather_8wekyb3d8bbwe --accept-source-agreements 
 : Mail / Calendar
 winget uninstall microsoft.windowscommunicationsapps_8wekyb3d8bbwe --accept-source-agreements --silent
 
-:Your Phone
+: Your Phone
 winget uninstall Microsoft.YourPhone_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : People
@@ -84,7 +84,7 @@ winget uninstall Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe
 : Get Help
 winget uninstall Microsoft.GetHelp_8wekyb3d8bbwe
 
-:OneDrive
+: OneDrive
 winget uninstall Microsoft.OneDrive
 
 : Windows 11 Bloatware
