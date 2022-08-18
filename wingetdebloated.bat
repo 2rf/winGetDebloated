@@ -55,44 +55,44 @@ winget uninstall microsoft.windowscommunicationsapps_8wekyb3d8bbwe --accept-sour
 winget uninstall Microsoft.YourPhone_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : People
-winget uninstall Microsoft.People_8wekyb3d8bbwe
+winget uninstall Microsoft.People_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : MS Pay 
-winget uninstall Microsoft.Wallet_8wekyb3d8bbwe
+winget uninstall Microsoft.Wallet_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : MS Maps
-winget uninstall Microsoft.WindowsMaps_8wekyb3d8bbwe
+winget uninstall Microsoft.WindowsMaps_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : OneNote
-winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe
+winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : MS Office
-winget uninstall Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe
+winget uninstall Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : Voice Recorder
-winget uninstall Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe
+winget uninstall Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : Movies & TV
-winget uninstall Microsoft.ZuneVideo_8wekyb3d8bbwe
+winget uninstall Microsoft.ZuneVideo_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : Mixed Reality-Portal
-winget uninstall Microsoft.MixedReality.Portal_8wekyb3d8bbwe
+winget uninstall Microsoft.MixedReality.Portal_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : Sticky Notes...
-winget uninstall Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe
+winget uninstall Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : Get Help
-winget uninstall Microsoft.GetHelp_8wekyb3d8bbwe
+winget uninstall Microsoft.GetHelp_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : OneDrive
-winget uninstall Microsoft.OneDrive
+winget uninstall Microsoft.OneDrive --accept-source-agreements --silent
 
 : Windows 11 Bloatware
-winget uninstall Microsoft.Todos_8wekyb3d8bbwe
-winget uninstall Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe
-winget uninstall Microsoft.BingNews_8wekyb3d8bbwe
-winget uninstall MicrosoftTeams_8wekyb3d8bbwe
-winget uninstall disney+ 
+winget uninstall Microsoft.Todos_8wekyb3d8bbwe --accept-source-agreements --silent
+winget uninstall Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe --accept-source-agreements --silent
+winget uninstall Microsoft.BingNews_8wekyb3d8bbwe --accept-source-agreements --silent
+winget uninstall MicrosoftTeams_8wekyb3d8bbwe --accept-source-agreements --silent
+winget uninstall disney+ --accept-source-agreements --silent
 
 echo. & echo Done. Thank you for using this tool.
 pause
