@@ -11,7 +11,7 @@ Winget is preinstalled on Windows 11 and above. If you are on Windows 10 install
 
 The installation is super simple. Just copy and paste this command into a normal command prompt:
 
-    powershell -Command "(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/2rf/winGetDebloated/main/wingetdebloated.bat')" | powershell -Command Set-Content -Path .\wingetdebloated.bat    
+    powershell "iwr https://raw.githubusercontent.com/2rf/winGetDebloated/main/wingetdebloated.bat" -OutFile wingetdebloated.bat  
 
 ## Usage
 
