@@ -16,7 +16,7 @@ cls & echo wingetDebloated - A winget bloatware removal tool made in batch & ech
 winget uninstall cortana
 winget uninstall skype
 
-if /i "%EDGE%" == "n" taskkill /f /im msedge.exe & winget uninstall edge --accept-source-agreements --silent 
+if /i "%EDGE%" == "n" taskkill /f /im msedge.exe & winget uninstall Microsoft.Edge --accept-source-agreements --silent 
 if /i %CAMERA% == "n" winget uninstall 9WZDNCRFJBBG --accept-source-agreements --silent
 
 : Xbox Applications
