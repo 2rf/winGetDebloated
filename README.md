@@ -13,14 +13,14 @@ The installation is super simple. Just copy and paste this command into a normal
 
     powershell "iwr https://raw.githubusercontent.com/2rf/winGetDebloated/main/wingetdebloated.bat" -outf wingetdebloated.bat 
 
-## Usage
+### Run with:
 
     wingetdebloated.bat
 
-## What will it uninstall?
+## What will it remove?
 Edge (Will ask first), Camera App (Will ask first), Cortana, Skype, Microsoft Teams, Xbox Applications, Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather, Mail and Calendar, Your Phone, Contacts App, Microsoft Pay, Microsoft Maps, Office, OneNote, Windows Sound Recorder, Movies & TV App, Mixed Reality-Portal, Sticky Notes, Get Help, OneDrive, Microsoft Solitaire Collection
 
-**On Windows 11 it will uninstall:** 
+**On Windows 11 it will remove:** 
 All of the above and Microsoft To do, Power Automate, Microsoft News, Disney+
 
 ## Contributing
