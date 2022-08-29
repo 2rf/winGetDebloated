@@ -17,6 +17,11 @@ The installation is super simple. Just copy and paste this command into a normal
 
     wingetdebloated.bat
 
+### Remove:
+If wingetdebloated is no longer needed remove it with:
+    
+    del wingetdebloated.bat
+    
 ## What will it remove?
 Edge (Will ask first), Camera App (Will ask first), Cortana, Skype, Microsoft Teams, Xbox Applications, Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather, Mail and Calendar, Your Phone, Contacts App, Microsoft Pay, Microsoft Maps, Office, OneNote, Windows Sound Recorder, Movies & TV App, Mixed Reality-Portal, Sticky Notes, Get Help, OneDrive, Microsoft Solitaire Collection
 
