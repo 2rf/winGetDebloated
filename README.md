@@ -23,10 +23,63 @@ If wingetdebloated is no longer needed remove it with:
     del wingetdebloated.bat
     
 ## What will it remove?
-Edge (Will ask first), Camera App (Will ask first), Cortana, Skype, Microsoft Teams, Xbox Applications, Groove-Music, Feedback-Hub, Microsoft Tips, 3D-Viewer, Paint-3D, Weather, Mail and Calendar, Your Phone, Contacts App, Microsoft Pay, Microsoft Maps, Office, OneNote, Windows Sound Recorder, Movies & TV App, Mixed Reality-Portal, Sticky Notes, Get Help, OneDrive, Microsoft Solitaire Collection
 
-**On Windows 11 it will remove:** 
-All of the above and Microsoft To do, Power Automate, Microsoft News, Disney+
+<details>
+  <summary>Click me</summary>
+
+```
+Edge (Will ask first)
+Camera App (Will ask first)
+Snipping Tool (Will ask first)
+Skype
+Microsoft Teams
+Xbox Applications
+Groove-Music
+Feedback-Hub
+Microsoft Tips
+3D-Viewer
+Paint-3D
+Weather
+Mail and Calendar
+Your Phone
+Contacts App
+Microsoft Pay
+Microsoft Maps
+Office
+OneNote
+Windows Sound Recorder
+Movies & TV App
+Mixed Reality-Portal
+Sticky Notes
+Get Help
+OneDrive
+Microsoft Solitaire Collection
+Calculator
+Microsoft Edge WebView2 Runtime
+```
+
+</details>
+
+<details>
+<summary>Windows 11+</summary>
+
+
+All of the above and:
+
+```
+Microsoft To do
+Power Automate
+Microsoft News
+Disney+
+Microsoft Family 
+Quick Assist
+Clipchamp
+```
+</details>
+
+## The script accidentally deleted an app that I wanted to keep.
+
+You can get the app you want back by using `winget install <package name>`. Say you wanted to keep the calculator app that the script removed, you can just do `winget install calculator`. Or simply looking it up on the microsoft store.
 
 ## Contributing
 Pull requests are welcome. 
