@@ -25,7 +25,7 @@ If wingetdebloated is no longer needed remove it with:
 ## What will it remove?
 
 <details>
-  <summary>Click me</summary>
+  <summary>Windows 10</summary>
 
 ```
 Edge (Will ask first)
@@ -64,7 +64,7 @@ Microsoft Edge WebView2 Runtime
 <summary>Windows 11+</summary>
 
 
-All of the above and:
+All of the Windows 10 Applications and:
 
 ```
 Microsoft To do
