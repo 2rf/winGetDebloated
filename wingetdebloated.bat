@@ -5,8 +5,6 @@ echo [1/4] Do you want to keep Microsoft Edge? y/n
 set /p edge="> "
 echo [2/4] Do you want to keep the Camera App? y/n
 set /p camera="> "
-echo [3/4] Do you want to keep Snipping Tool? y/n
-set /p snip="> "
 
 set /p enter="Press ENTER twice to start debloating"
 set /p enter2="Press ENTER one more time to start debloating"
@@ -20,7 +18,6 @@ winget uninstall skype
 
 if /i "%EDGE%" == "n" taskkill /f /im msedge.exe & winget uninstall Microsoft.Edge --accept-source-agreements --silent && winget uninstall Microsoft.EdgeWebView2Runtime --accept-source-agreements
 if /i "%CAMERA%" == "n" winget uninstall Microsoft.WindowsCamera_8wekyb3d8bbwe --accept-source-agreements --silent
-if /i "%SNIP" == "n" winget uninstall Microsoft.ScreenSketch_8wekyb3d8bbwe --accept-source-agreements --silent
 
 : Xbox Applications
 winget uninstall Microsoft.GamingApp_8wekyb3d8bbwe --accept-source-agreements --silent
