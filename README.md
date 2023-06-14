@@ -6,16 +6,12 @@ winGetDebloated is a bloatware removal tool for windows 10 and above made in bat
 
 Winget is like the Microsoft Store, you can install and uninstall packages but its in your command line. 
 
-## Installation
-Winget is preinstalled on Windows 11 and above. If you are on Windows 10 install winget [here](https://www.microsoft.com/p/app-installer/9nblggh4nns1)
+## Usage
+**Note:** If you are on Windows 10 you must update or install winget [here](https://www.microsoft.com/p/app-installer/9nblggh4nns1)
 
-The installation is super simple. Just copy and paste this command into a normal command prompt:
+Just copy and paste this command into a command prompt with Administrator rights:
 
-    powershell iwr https://raw.githubusercontent.com/2rf/winGetDebloated/main/wingetdebloated.bat -o wingetdebloated.bat
-
-### Run with:
-
-    wingetdebloated.bat
+    powershell iwr https://raw.githubusercontent.com/2rf/winGetDebloated/main/wingetdebloated.bat -o wingetdebloated.bat && wingetdebloated.bat
 
 ### Remove:
 If wingetdebloated is no longer needed remove it with:
@@ -74,6 +70,7 @@ Disney+
 Microsoft Family 
 Quick Assist
 Clipchamp
+...
 ```
 </details>
 
@@ -82,6 +79,6 @@ Clipchamp
 You can get the app you want back by using `winget install <package name>`. Say you wanted to keep the calculator app that the script removed, you can just do `winget install calculator`. Alternatively, look the application up on the microsoft store.
 
 ## Contributing
-Pull requests are welcome. 
+Pull requests are welcome. Please make a Issue or pull request on what to add, I am only able to update this repository once in a while since I do not install windows 11 a lot and do not know what bloatware has been added, this tool does work fully for windows 10 though
 
 ## Thank you for using this.
