@@ -9,9 +9,7 @@ set /p camera="> "
 set /p enter="Press ENTER twice to start debloating"
 set /p enter2="Press ENTER one more time to start debloating"
 
-
 cls & echo wingetDebloated - A winget bloatware removal tool made in batch & echo.
-
 
 winget uninstall cortana
 winget uninstall skype
